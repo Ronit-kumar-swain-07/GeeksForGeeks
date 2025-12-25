@@ -34,7 +34,7 @@ Auxiliary Space: O(1)
 //Solution.java
 import java.util.Scanner;
 
-public class Solution {
+class Solution {
     public static void solve() {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -44,5 +44,6 @@ public class Solution {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

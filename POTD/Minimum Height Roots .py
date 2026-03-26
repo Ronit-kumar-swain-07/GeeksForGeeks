@@ -26,8 +26,6 @@
 #Code
 
 from collections import defaultdict, deque
-
-
 class Solution:
     def minHeightRoot(self, V, edges):
         if V == 1:

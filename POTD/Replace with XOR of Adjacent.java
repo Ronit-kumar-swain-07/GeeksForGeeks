@@ -1,5 +1,4 @@
 /*
-
 Replace with XOR of Adjacent
 
 Given an array arr[] of n integers, modify the array in-place such that each element is replaced with the XOR of its adjacent elements.

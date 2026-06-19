@@ -1,10 +1,8 @@
-
 import java.util.ArrayList;
-
 class Solution {
 
     static ArrayList<Integer> diagView(int mat[][]) {
-        ArrayList<Integer> res = new ArrayList<Integer>();
+        ArrayList<Integer> res = new ArrayList<>();
         int n = mat.length;
         int idx;
         for (int j = 0; j < n; j++) {

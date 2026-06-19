@@ -21,7 +21,6 @@
 # 0 ≤ n ≤ 105
 
 #Code
-
 class Solution:
     def isBitSet(self, n):
         return '0' not in bin(n)[2:]
